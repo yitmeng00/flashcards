@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import FlashCard from "../FlashCard";
 import { cardsData } from "../../data/cards-data.ts";
 import { FlashCard as FlashCardType } from "../../types/FlashCard.ts";
+import "./FlashCardDeck.css";
 
 const FlashCardDeck: React.FC = () => {
     const [cards, setCards] = useState<FlashCardType[]>([]);
